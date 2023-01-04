@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col{
+display: flex;
+align-items: center;
+}
+
+
+img{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+    padding-left: 10px;
+}
+a:hover{
+    background-color: beige;
+}
+footer{
+    background-color: black;
+}

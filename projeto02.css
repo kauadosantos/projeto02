@@ -1,0 +1,139 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kenia&family=Rubik+Spray+Paint&display=swap'); 
+
+
+
+
+:root{
+   --cor1: #02A676;
+   --cor2: #008C72;
+   --cor3: #007369;
+   --cor4: #005A5B;
+   --cor5: #003840;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: blanchedalmond;
+
+}
+header{
+    background-image: linear-gradient(var(--cor1),var(--cor3));
+    padding: 100px;
+    
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+header > p{
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: var(--cor3);
+    padding: 20px;
+    
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+a > img{
+    padding-bottom: -10px;
+}
+
+a:hover{
+    background-color: #02A676;
+}
+
+main{
+ background-color: white;
+margin: auto;
+max-width: 1000px;
+min-width: 300px;
+border-radius: 20px;
+margin-top: 10px;
+padding-bottom: 10px;
+}
+main  h1{
+    text-align: center;
+    margin-top: 10px;
+}
+main p{
+    text-indent: 20px;
+    margin-top: 10px;
+    line-height: 1.5em;
+    font-size: 1em;
+    
+}
+main>iframe{
+    margin: auto;
+}
+
+main img{
+    width: 80%;
+    padding: 10px 80px 10px 80px;
+    border-radius: 50px;
+    
+    
+
+    
+}
+main a{
+    color: #0D0D0D;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a{
+    margin-top: -10px;
+}
+a.link{
+    
+    text-decoration: underline;
+}
+a.link:hover{
+    color:red;
+}
+a.link::after{
+    content: '\00A0\1F5DE';
+}
+footer{
+color: white;
+background-color: #0D0D0D;
+padding-bottom: 100px;
+text-align: center;
+
+
+
+
+}
+footer>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer > h2{
+    padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
